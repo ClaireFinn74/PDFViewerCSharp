@@ -1,0 +1,41 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="SimplePdfViewer.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SimplePdfViewer"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" x:Name="root">
+
+    <Grid x:ConnectionId='2' Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" x:Name="Grid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Button x:ConnectionId='3' Content="Remote PDF"                              Height="30" Margin="0,61,0,549" />
+        <Button x:ConnectionId='4' x:Name= "btnPageUp" Background="Pink" Content="Page Up"                         Height="30" Margin="3,280,0,330" RenderTransformOrigin="0.702,7.656" />
+
+        <ScrollViewer x:ConnectionId='5' x:Name="scrollViewerPDF" ZoomMode="Enabled" Background="DarkGray" Grid.Column="1">
+            <ItemsControl ItemsSource="{Binding PdfPages, ElementName=root}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Image Source="{Binding}" Margin="0 2" />
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </ScrollViewer>
+
+
+        
+            <!--   Check the Myo Connection -->
+            <Button x:ConnectionId='6' x:Name="btnCheckConnection" Background="Pink" Visibility="Visible" Margin="0,174,0,430"                                  FontSize="18" Content="Myo" RenderTransformOrigin="2.179,-5.793"/>
+            <!-- Check the Myo Connection -->
+        <StackPanel x:ConnectionId='7' x:Name="stkpnlScrollView">
+            <TextBlock x:ConnectionId='8' x:Name="tblUpdates" Text="" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="10, 20, 0, 0" />
+            <TextBox x:ConnectionId='9' x:Name="txtPageCount" HorizontalAlignment="Left" Margin="5,70,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <Button x:ConnectionId='10' x:Name="btnPageDown" Background="Pink" Visibility="Visible" Margin="1,213,0,391"                           FontSize="18" Content="Page Down" RenderTransformOrigin="2.179,-5.793"/>
+            <TextBox x:ConnectionId='11' x:Name="txtScrollViewHandler" Visibility="Visible" Text="" Margin="1,100,0,0"/>
+        </StackPanel>
+    </Grid>
+</Page>
+
