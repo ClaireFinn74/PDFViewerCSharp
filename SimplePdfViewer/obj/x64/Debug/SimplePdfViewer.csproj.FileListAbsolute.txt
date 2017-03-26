@@ -197,3 +197,20 @@ C:\Users\owner\Downloads\SimplePdfViewer (2)\SimplePdfViewer\SimplePdfViewer\obj
 C:\Users\owner\Downloads\SimplePdfViewer (2)\SimplePdfViewer\SimplePdfViewer\obj\x64\Debug\Test.xbf
 C:\Users\owner\Downloads\SimplePdfViewer (2)\SimplePdfViewer\SimplePdfViewer\bin\x64\Debug\Test.xbf
 C:\Users\owner\Downloads\SimplePdfViewer (2)\SimplePdfViewer\SimplePdfViewer\obj\x64\Debug\SimplePdfViewer.csprojResolveAssemblyReference.cache
+C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\obj\x64\Debug\SimplePdfViewer.csprojResolveAssemblyReference.cache
+C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\obj\x64\Debug\App.g.i.cs
+C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\obj\x64\Debug\App.g.cs
+C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\obj\x64\Debug\MainPage.g.i.cs
+C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\obj\x64\Debug\MainPage.g.cs
+C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\obj\x64\Debug\Test.g.i.cs
+C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\obj\x64\Debug\Test.g.cs
+C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\obj\x64\Debug\App.xaml
+C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\obj\x64\Debug\MainPage.xaml
+C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\obj\x64\Debug\Test.xaml
+C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\obj\x64\Debug\App.xbf
+C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\obj\x64\Debug\MainPage.xbf
+C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\obj\x64\Debug\Test.xbf
+C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\obj\x64\Debug\SimplePdfViewer.exe
+C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\obj\x64\Debug\SimplePdfViewer.pdb

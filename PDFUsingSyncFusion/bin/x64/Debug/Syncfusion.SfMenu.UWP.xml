@@ -1,0 +1,1029 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Syncfusion.SfMenu.UWP</name>
+    </assembly>
+    <members>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Navigation.CheckIconType">
+            <summary>
+            Specifies the Checked Mode of SfMenuItem
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.CheckIconType.RadioButton">
+            <summary>
+             RadioButton can dispaly to checked and unchecked items
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.CheckIconType.CheckBox">
+            <summary>
+             CheckBox can dispaly to checked and unchecked items
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.CheckIconType.None">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Navigation.SfMenu">
+            <summary>
+            <see cref="T:Syncfusion.UI.Xaml.Controls.Navigation.SfMenu"/> control 
+            list of commands and actions can be displayed.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenu.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.UI.Xaml.Controls.Navigation.SfMenu"/> class.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenu.Orientation">
+            <summary>
+            Gets or sets the orientation.
+            </summary>
+            <value>The orientation.</value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenu.ExpandMode">
+            <summary>
+            Gets or sets the expand mode.
+            </summary>
+            <value>The expand mode.</value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenu.IsScrollEnabled">
+            <summary>
+            Gets or sets a value indicating whether this instance is menu item scrollability enabled.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is menu item scrollability enabled; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenu.IconGridVisibility">
+            <summary>
+            Gets or sets a value indicating whether this instance is menu item Icons or visible or not.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is menu item Icons or visible; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.SfMenu.IconGridVisibilityProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for IconGridVisibility.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenu.PopUpAnimationType">
+            <summary>
+            Gets or sets the type of the pop up animation.
+            </summary>
+            <value>The type of the pop up animation.</value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenu.FocusOnAlt">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.SfMenu.IsMenuItemScrollabilityEnabledProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for Scrollability.  This enables scrolling of the submenu items...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.SfMenu.ExpandModesProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for Expand modes.  This enables the Expand on click or expand on mouse over supports...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.SfMenu.OrientationProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for Orientation.  This enables the orientation of the MenuAdv...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.SfMenu.PopUpAnimationTypeProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for Popup Animation.  This enables the animation of popup like fade, slide or scroll.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.SfMenu.FocusOnAltProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for IsFocusonAltKey.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenu.OnApplyTemplate">
+            <summary>
+            When overridden in a derived class, is invoked whenever application code or internal processes (such as a rebuilding layout pass) call <see cref="M:System.Windows.Controls.Control.ApplyTemplate"/>. In simplest terms, this means the method is called just before a UI element displays in an application. For more information, see Remarks.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenu.MenuAdv_Unloaded(System.Object,Windows.UI.Xaml.RoutedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenu.IsItemItsOwnContainerOverride(System.Object)">
+            <summary>
+            Determines if the specified item is (or is eligible to be) its own container.
+            </summary>
+            <param name="item">The item to check.</param>
+            <returns>
+            true if the item is (or is eligible to be) its own container; otherwise, false.
+            </returns>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenu.GetContainerForItemOverride">
+            <summary>
+            Creates or identifies the element that is used to display the given item.
+            </summary>
+            <returns>
+            The element that is used to display the given item.
+            </returns>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenu.ItemContGenerator">
+            <summary>
+            gets or sets the ItemContainerGenerator value.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenu.PrepareContainerForItemOverride(Windows.UI.Xaml.DependencyObject,System.Object)">
+            <summary>
+            Prepares the specified element to display the specified item.
+            </summary>
+            <param name="element">The element used to display the specified item.</param>
+            <param name="item">The item to display.</param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenu.OnPointerEntered(Windows.UI.Xaml.Input.PointerRoutedEventArgs)">
+            <summary>
+            Called before the <see cref="E:System.Windows.UIElement.MouseEnter"/> event occurs.
+            </summary>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenu.OnPointerExited(Windows.UI.Xaml.Input.PointerRoutedEventArgs)">
+            <summary>
+            Called before the <see cref="E:Windows.UI.Xaml.Controls.OnPointerExited"/> event occurs.
+            </summary>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenu.OnPointerPressed(Windows.UI.Xaml.Input.PointerRoutedEventArgs)">
+            <summary>
+            Called before the <see cref="E:Windows.UI.Xaml.Controls.OnPointerPressed"/> event occurs.
+            </summary>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenu.Dispose">
+            <summary>
+            Represents dispose method for disposing unwanted objects
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Navigation.ExpandModes">
+            <summary>
+            Menu ExpandModes enumeration
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.ExpandModes.ExpandOnMouseOver">
+            <summary>
+            Expands menu items present in menu on mouse hover.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.ExpandModes.ExpandOnClick">
+            <summary>
+            Expands menu items present in menu on mouse click.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Navigation.PopUpAnimationTypes">
+            <summary>
+            Popup AnimationType enumeration
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.PopUpAnimationTypes.None">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.PopUpAnimationTypes.Fade">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.PopUpAnimationTypes.Slide">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.PopUpAnimationTypes.Scroll">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.PopUpAnimationTypes.Custom">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Navigation.Role">
+            <summary>
+            MenuItem Role enumeration
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.Role.SubmenuHeader">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.Role.SubmenuItem">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.Role.TopLevelHeader">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.Role.TopLevelItem">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem">
+            <summary>
+            Represents the Menu Item  Class.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.#ctor">
+            <summary>
+             Initializes a new instance of the <see cref="T:Syncfusion.UI.Xaml.Controls.Navigation.SfMenu"/> class.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.OnLostFocus(Windows.UI.Xaml.RoutedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.PopUpClosed">
+            <summary>
+            Occurs when [PopUpclosed].
+            </summary>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.PopUpClosing">
+            <summary>
+            Occurs when [PopUpclosing].
+            </summary>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.PopUpOpened">
+            <summary>
+            Occurs when [PopUpopened].
+            </summary>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.PopUpOpening">
+            <summary>
+            Occurs when [PopUpopening].
+            </summary>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.Click">
+            <summary>
+            Occurs when [click].
+            </summary>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.Checked">
+            <summary>
+            Occurs when [checked].
+            </summary>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.UnChecked">
+            <summary>
+            Occurs when [un checked].
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.ContainersToItems">
+            <summary>
+            Gets or sets the containers to items.
+            </summary>
+            <value>The containers to items.</value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.ParentMenuAdv">
+            <summary>
+            Gets or sets the parent menu adv.
+            </summary>
+            <value>The parent menu adv.</value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.ParentMenuItemAdv">
+            <summary>
+            Gets or sets the parent menu item adv.
+            </summary>
+            <value>The parent menu item adv.</value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.Parent">
+            <summary>
+            Gets the parent object of this <see cref="T:System.Windows.FrameworkElement"/> in the object tree.
+            </summary>
+            <value></value>
+            <returns>The parent object of this object in the object tree.</returns>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.Role">
+            <summary>
+            Gets or sets the role.
+            </summary>
+            <value>The role.</value>       
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.IsSubMenuOpen">
+            <summary>
+            Gets or sets a value indicating whether this instance is sub menu open.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is sub menu open; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.Icon">
+            <summary>
+            Gets or sets the icon.
+            </summary>
+            <value>The icon.</value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.IsCheckable">
+            <summary>
+            Gets or sets a value indicating whether this instance is checkable.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is checkable; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.IsPressed">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.IsChecked">
+            <summary>
+            Gets or sets a value indicating whether this instance is checked.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is checked; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.CheckIconType">
+            <summary>
+            Gets or sets the type of the check icon.
+            </summary>
+            <value>The type of the check icon.</value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.GroupName">
+            <summary>
+            Gets or sets the name of the group.
+            </summary>
+            <value>The name of the group.</value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.InputGestureText">
+            <summary>
+            Gets or sets the Input Gesture Text.
+            </summary>
+            <value>The Input Gesture Text.</value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.TopScrollButtonStyle">
+            <summary>
+            Gets or sets the top scroll button style.
+            </summary>
+            <value>The top scroll button style.</value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.BottomScrollButtonStyle">
+            <summary>
+            Gets or sets the bottom scroll button style.
+            </summary>
+            <value>The bottom scroll button style.</value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.CheckBoxStyle">
+            <summary>
+            Gets or sets the check box style.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.RadioButtonStyle">
+            <summary>
+            Gets or sets the radio button style.
+            </summary>
+            <value>The radio button style.</value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.StaysOpenOnClick">
+            <summary>
+            Gets or sets a value indicating whether this instance is stays open on click.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is stays open on click; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.PanelWidth">
+            <summary>
+            Gets or sets the width of the panel.
+            </summary>
+            <value>The width of the panel.</value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.IconVisibility">
+            <summary>
+            Gets or sets the visibility of Icon,checkBox.
+            </summary>
+            <value>The Visibility of the IconGrid.</value>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.IconVisibilityProperty">
+             <summary>
+             Using a DependencyProperty as the backing store for IconVisibility.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.ExtendButtonVisibility">
+            <summary>
+            Gets or sets the extend button visibility.
+            </summary>
+            <value>The extend button visibility.</value>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.MenuExtendvisibilityProperty">
+             <summary>
+             Using a DependencyProperty as the backing store for MenuExtendvisibility.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.CheckBoxVisibility">
+            <summary>
+            Gets or sets the check box visibility.
+            </summary>
+            <value>The check box visibility.</value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.RadioButtonVisibility">
+            <summary>
+            Gets or sets the radio button visibility.
+            </summary>
+            <value>The radio button visibility.</value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.ScrollerHeight">
+            <summary>
+            Gets or sets the height of the scroller.
+            </summary>
+            <value>The height of the scroller.</value>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.RoleProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for Role.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.InputGestureTextProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for InputGestureText. It Represents InputGestureText of the MenuItem to be displayed right to the header.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.IsPressedProperty">
+            <summary>
+            Represents the menu item ispressed or not
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.IsSubMenuOpenProperty">
+            <summary>
+            Represents SubMenu popup is Open or closed
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.ExtendButtonVisibilityProperty">
+            <summary>
+            Represents the ExtendButton is Visible or not
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.IconProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for Icon of type Object
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.IsCheckableProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for IsCheckable. It Represents the MenuItem can be checkable or not.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.IsCheckedProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for IsChecked. It Represents the MenuItem is Checked or not.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.CheckIconTypeProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for CheckIconType. It may be CheckBox or Radio Button.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.IconBoxVisibilityProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for IconBoxVisibility.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.CheckBoxVisibilityProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for CheckBox Visibility. It Represents the checkBox placed in MenuItem Icon can be visible or not.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.RadioButtonVisibilityProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for Radio Button Visibility. It Represents the Radio Button placed in MenuItem Icon can be visible or not.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.GroupNameProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for GroupName. It Represents GroupName of the MenuItem to use the Radion Button fuctionality.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.ScrollerHeightProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for Scroller Height. It Represents the checkBox placed in MEnuItem Icon can be visible or not.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.IsStaysOpenOnClickProperty">
+            <summary>
+            Represents the MenuItem popup to stay open On click
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.TopScrollButtonStyleProperty">
+            <summary>
+            Represents the style of Top Scroll Button present in the subMenu Popup.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.BottomScrollButtonStyleProperty">
+            <summary>
+            Represents the style of Bottom Scroll Button present in the subMenu Popup.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.CheckBoxStyleProperty">
+            <summary>
+            Represents the style of Check Box present in the MenuItem Icon.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.RadioButtonStyleProperty">
+            <summary>
+            Represents the style of Radio Button present in the MenuItem Icon.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.OnApplyTemplate">
+            <summary>
+            Builds the visual tree for the <see cref="T:System.Windows.Controls.HeaderedItemsControl"/> when a new template is applied.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.IsItemItsOwnContainerOverride(System.Object)">
+            <summary>
+            Determines if the specified item is (or is eligible to be) its own container.
+            </summary>
+            <param name="item">The item to check.</param>
+            <returns>
+            true if the item is (or is eligible to be) its own container; otherwise, false.
+            </returns>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.GetContainerForItemOverride">
+            <summary>
+            Creates or identifies the element that is used to display the given item.
+            </summary>
+            <returns>
+            The element that is used to display the given item.
+            </returns>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.PrepareContainerForItemOverride(Windows.UI.Xaml.DependencyObject,System.Object)">
+            <summary>
+            Prepares the specified element to display the specified item.
+            </summary>
+            <param name="element">The container element used to display the specified item.</param>
+            <param name="item">The content to display.</param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.OnPointerEntered(Windows.UI.Xaml.Input.PointerRoutedEventArgs)">
+            <summary>
+            Called before the <see cref="E:System.Windows.UIElement.MouseEnter"/> event occurs.
+            </summary>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.OnPointerExited(Windows.UI.Xaml.Input.PointerRoutedEventArgs)">
+            <summary>
+            Called before the <see cref="E:System.Windows.UIElement.MouseLeave"/> event occurs.
+            </summary>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.OnPointerPressed(Windows.UI.Xaml.Input.PointerRoutedEventArgs)">
+            <summary>
+            Called before the <see cref="E:System.Windows.UIElement.MouseLeftButtonDown"/> event occurs.
+            </summary>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.OnPointerReleased(Windows.UI.Xaml.Input.PointerRoutedEventArgs)">
+            <summary>
+            Called before the <see cref="E:System.Windows.UIElement.MouseLeftButtonUp"/> event occurs.
+            </summary>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.OnKeyDown(Windows.UI.Xaml.Input.KeyRoutedEventArgs)">
+            <summary>
+            Called before the <see cref="E:System.Windows.UIElement.KeyDown"/> event occurs.
+            </summary>
+            <param name="e">The data for the event.</param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.OnPanelWidthChanged(Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.OnOpening(Windows.UI.Xaml.RoutedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.OnOpened(Windows.UI.Xaml.RoutedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.OnClosing(Windows.UI.Xaml.RoutedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.OnClosed(Windows.UI.Xaml.RoutedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.OnIsCheckedPropertyChanged(Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.UpKeyAction">
+            <summary>
+            Calls the state of the visual.
+            </summary>
+            <param >The item.</param>
+            <param >The state.</param>
+            <summary>
+            Ups the key action.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.DownKeyAction">
+            <summary>
+            Downs the key action.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.RightKeyAction">
+            <summary>
+            Rights the key action.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.LeftKeyAction">
+            <summary>
+            Lefts the key action.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.EnterKeyAction">
+            <summary>
+            Enters the key action.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.TabKeyAction">
+            <summary>
+            Tabs the key action.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.AltKeyAction">
+            <summary>
+            Alts the key action.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.EscapeKeyAction">
+            <summary>
+            Escapes the key action.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.HandlePopupOpen">
+            <summary>
+            Handles the popup open.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.SelectPopUpAnimation">
+            <summary>
+            Selects the pop up animation.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.ChangeExtendButtonVisibility">
+            <summary>
+            Changes the extend button visibility.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.CheckGroupName(Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem)">
+            <summary>
+            Checks the name of the group.
+            </summary>
+            <param name="menuitem">The menuitem.</param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.UnCheck(Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem)">
+            <summary>
+            Uns the check.
+            </summary>
+            <param name="menuitem">The menuitem.</param>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.Command">
+            <summary>
+            Gets or sets the command.
+            </summary>
+            <value>The command.</value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.CommandParameter">
+            <summary>
+            Gets or sets the command parameter.
+            </summary>
+            <value>The command parameter.</value>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.CommandProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for Command. It Represents the Command to be excecuted.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.CommandParameterProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for Command Parameter. It Represents the Command Parameter to be passed to execute the command.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItem.Dispose">
+            <summary>
+            Represents dispose method for disposing unwanted objects
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItemSeparator">
+            <summary>
+            Represents the Menu Item Seperator Class.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfMenuItemSeparator.#ctor">
+            <summary>
+            Public parameterless constructor
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Navigation.ItemContainerGeneratorAdv">
+            <summary>
+            Represents ItemContainerGeneratorAdv class
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.ItemContainerGeneratorAdv.ChildrenToItems">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.ItemContainerGeneratorAdv.ClearItems">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.ItemContainerGeneratorAdv.#ctor(Windows.UI.Xaml.Controls.ItemsControl)">
+            <summary>
+            
+            </summary>
+            <param name="itemscontrol"></param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.ItemContainerGeneratorAdv.ApplyPropertiesTochild(Windows.UI.Xaml.DependencyObject,System.Object,Windows.UI.Xaml.Style)">
+            <summary>
+            
+            </summary>
+            <param name="element"></param>
+            <param name="item"></param>
+            <param name="parentItemContainerStyle"></param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.ItemContainerGeneratorAdv.childfromindex(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.ItemContainerGeneratorAdv.childfromitem(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.ItemContainerGeneratorAdv.indexfromchild(Windows.UI.Xaml.DependencyObject)">
+            <summary>
+            
+            </summary>
+            <param name="child"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.ItemContainerGeneratorAdv.itemfromchild(Windows.UI.Xaml.DependencyObject)">
+            <summary>
+            
+            </summary>
+            <param name="child"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.ItemContainerGeneratorAdv.UpdateItemContainerStyle(Windows.UI.Xaml.Style)">
+            <summary>
+            
+            </summary>
+            <param name="itemContainerStyle"></param>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Navigation.VisualUtil">
+            <summary>
+            represents the VisualUtil class
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.VisualUtil.FindAncestor(Windows.UI.Xaml.DependencyObject,System.Type)">
+            <summary>
+            Finds the ancestor.
+            </summary>
+            <param name="startingfrom">The startingfrom.</param>
+            <param name="ancestortype">The ancestortype.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.VisualUtil.FindDescendant(Windows.UI.Xaml.DependencyObject,System.Type)">
+            <summary>
+            
+            </summary>
+            <param name="startingFrom"></param>
+            <param name="typeDescendant"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.VisualUtil.GetVisualDescendants(Windows.UI.Xaml.DependencyObject)">
+            <summary>
+            
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.VisualUtil.FindVisualParent``1(Windows.UI.Xaml.DependencyObject)">
+            <summary>
+            Finds a parent of a given item on the visual tree.
+            </summary>
+            <typeparam name="T">The type of the queried item.</typeparam>
+            <param name="child">A direct or indirect child of the queried item.</param>
+            <returns>The first parent item that matches the submitted type parameter. 
+            If not matching item can be found, a null reference is being returned.</returns>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.Syncfusion_SfMenu_UWP_2015_XamlTypeInfo.XamlMetaDataProvider.GetXamlType(System.Type)">
+            <summary>
+            GetXamlType(Type)
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.Syncfusion_SfMenu_UWP_2015_XamlTypeInfo.XamlMetaDataProvider.GetXamlType(System.String)">
+            <summary>
+            GetXamlType(String)
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.Syncfusion_SfMenu_UWP_2015_XamlTypeInfo.XamlMetaDataProvider.GetXmlnsDefinitions">
+            <summary>
+            GetXmlnsDefinitions()
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Primitives.VisualTreeExtensions">
+            <summary>
+            Provides useful extensions for working with the visual tree.
+            </summary>
+            <remarks>
+            Since many of these extension methods are declared on types like
+            DependencyObject high up in the class hierarchy, we've placed them in
+            the Primitives namespace which is less likely to be imported for normal
+            scenarios.
+            </remarks>
+            <QualityBand>Experimental</QualityBand>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Primitives.VisualTreeExtensions.GetVisualAncestors(Windows.UI.Xaml.DependencyObject)">
+            <summary>
+            Get the visual tree ancestors of an element.
+            </summary>
+            <param name="element">The element.</param>
+            <returns>The visual tree ancestors of the element.</returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="element"/> is null.
+            </exception>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Primitives.VisualTreeExtensions.GetVisualAncestorsAndSelf(Windows.UI.Xaml.DependencyObject)">
+            <summary>
+            Get the visual tree ancestors of an element and the element itself.
+            </summary>
+            <param name="element">The element.</param>
+            <returns>
+            The visual tree ancestors of an element and the element itself.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="element"/> is null.
+            </exception>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Primitives.VisualTreeExtensions.GetVisualAncestorsAndSelfIterator(Windows.UI.Xaml.DependencyObject)">
+            <summary>
+            Get the visual tree ancestors of an element and the element itself.
+            </summary>
+            <param name="element">The element.</param>
+            <returns>
+            The visual tree ancestors of an element and the element itself.
+            </returns>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Primitives.VisualTreeExtensions.GetVisualChildren(Windows.UI.Xaml.DependencyObject)">
+            <summary>
+            Get the visual tree children of an element.
+            </summary>
+            <param name="element">The element.</param>
+            <returns>The visual tree children of an element.</returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="element"/> is null.
+            </exception>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Primitives.VisualTreeExtensions.GetVisualChildrenAndSelf(Windows.UI.Xaml.DependencyObject)">
+            <summary>
+            Get the visual tree children of an element and the element itself.
+            </summary>
+            <param name="element">The element.</param>
+            <returns>
+            The visual tree children of an element and the element itself.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="element"/> is null.
+            </exception>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Primitives.VisualTreeExtensions.GetVisualChildrenAndSelfIterator(Windows.UI.Xaml.DependencyObject)">
+            <summary>
+            Get the visual tree children of an element and the element itself.
+            </summary>
+            <param name="element">The element.</param>
+            <returns>
+            The visual tree children of an element and the element itself.
+            </returns>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Primitives.VisualTreeExtensions.GetVisualDescendants(Windows.UI.Xaml.DependencyObject)">
+            <summary>
+            Get the visual tree descendants of an element.
+            </summary>
+            <param name="element">The element.</param>
+            <returns>The visual tree descendants of an element.</returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="element"/> is null.
+            </exception>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Primitives.VisualTreeExtensions.GetVisualDescendantsAndSelf(Windows.UI.Xaml.DependencyObject)">
+            <summary>
+            Get the visual tree descendants of an element and the element
+            itself.
+            </summary>
+            <param name="element">The element.</param>
+            <returns>
+            The visual tree descendants of an element and the element itself.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="element"/> is null.
+            </exception>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Primitives.VisualTreeExtensions.GetVisualDescendantsAndSelfIterator(Windows.UI.Xaml.DependencyObject)">
+            <summary>
+            Get the visual tree descendants of an element and the element
+            itself.
+            </summary>
+            <param name="element">The element.</param>
+            <returns>
+            The visual tree descendants of an element and the element itself.
+            </returns>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Primitives.VisualTreeExtensions.GetVisualSiblings(Windows.UI.Xaml.DependencyObject)">
+            <summary>
+            Get the visual tree siblings of an element.
+            </summary>
+            <param name="element">The element.</param>
+            <returns>The visual tree siblings of an element.</returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="element"/> is null.
+            </exception>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Primitives.VisualTreeExtensions.GetVisualSiblingsAndSelf(Windows.UI.Xaml.DependencyObject)">
+            <summary>
+            Get the visual tree siblings of an element and the element itself.
+            </summary>
+            <param name="element">The element.</param>
+            <returns>
+            The visual tree siblings of an element and the element itself.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="element"/> is null.
+            </exception>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Primitives.VisualTreeExtensions.GetBoundsRelativeTo(Windows.UI.Xaml.FrameworkElement,Windows.UI.Xaml.UIElement)">
+            <summary>
+            Get the bounds of an element relative to another element.
+            </summary>
+            <param name="element">The element.</param>
+            <param name="otherElement">
+            The element relative to the other element.
+            </param>
+            <returns>
+            The bounds of the element relative to another element, or null if
+            the elements are not related.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="element"/> is null.
+            </exception>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="otherElement"/> is null.
+            </exception>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Primitives.VisualTreeExtensions.InvokeOnLayoutUpdated(Windows.UI.Xaml.FrameworkElement,System.Action)">
+            <summary>
+            Perform an action when the element's LayoutUpdated event fires.
+            </summary>
+            <param name="element">The element.</param>
+            <param name="action">The action to perform.</param>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="element"/> is null.
+            </exception>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="action"/> is null.
+            </exception>
+        </member>
+    </members>
+</doc>

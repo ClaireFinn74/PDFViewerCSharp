@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>46e06a1f-b8c5-4fc0-b73c-61370d80a18b</PackageIdentityName>
     <PackageIdentityPublisher>CN=PiNi</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\owner\Downloads\SimplePdfViewer %282%29\SimplePdfViewer\SimplePdfViewer\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -25,16 +25,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\owner\Downloads\SimplePdfViewer %282%29\SimplePdfViewer\SimplePdfViewer\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-15T21:44:25.597</Modified>
+      <Modified>2017-03-26T19:57:01.166</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\SimplePdfViewer %282%29\SimplePdfViewer\SimplePdfViewer\bin\x86\Debug\SimplePdfViewer.exe">
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\bin\x86\Debug\SimplePdfViewer.exe">
       <PackagePath>entrypoint\SimplePdfViewer.exe</PackagePath>
-      <Modified>2017-03-15T21:44:23.202</Modified>
+      <Modified>2017-03-26T19:56:57.824</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\owner\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -99,6 +99,18 @@
     <AppxPackagedFile Include="C:\Users\owner\.nuget\packages\runtime.any.System.Private.DataContractSerialization\4.1.0\lib\netcore50\System.Private.DataContractSerialization.dll">
       <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
       <Modified>2016-02-21T21:35:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\.nuget\packages\Syncfusion.UWP\15.1460.2\lib\uap10.0\Syncfusion.SfBusyIndicator.UWP.dll">
+      <PackagePath>Syncfusion.SfBusyIndicator.UWP.dll</PackagePath>
+      <Modified>2017-03-10T21:35:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\.nuget\packages\Syncfusion.UWP\15.1460.2\lib\uap10.0\Syncfusion.SfInput.UWP.dll">
+      <PackagePath>Syncfusion.SfInput.UWP.dll</PackagePath>
+      <Modified>2017-03-10T21:35:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\.nuget\packages\Syncfusion.UWP\15.1460.2\lib\uap10.0\Syncfusion.SfShared.UWP.dll">
+      <PackagePath>Syncfusion.SfShared.UWP.dll</PackagePath>
+      <Modified>2017-03-10T21:35:28.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\owner\.nuget\packages\System.AppContext\4.0.0\lib\netcore50\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
@@ -448,7 +460,7 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-02-08T17:47:08.075</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\SimplePdfViewer %282%29\SimplePdfViewer\SimplePdfViewer\MyoSharp.dll">
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\MyoSharp.dll">
       <PackagePath>MyoSharp.dll</PackagePath>
       <Modified>2017-02-21T15:48:37.190</Modified>
     </AppxPackagedFile>
@@ -456,68 +468,92 @@
       <PackagePath>Microsoft.Contracts.dll</PackagePath>
       <Modified>2015-07-14T11:12:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\SimplePdfViewer %282%29\SimplePdfViewer\SimplePdfViewer\x64\myo.dll">
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\x64\myo.dll">
       <PackagePath>x64\myo.dll</PackagePath>
       <Modified>2016-02-15T15:06:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\SimplePdfViewer %282%29\SimplePdfViewer\SimplePdfViewer\x86\myo.dll">
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\x86\myo.dll">
       <PackagePath>x86\myo.dll</PackagePath>
       <Modified>2016-02-15T15:06:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\SimplePdfViewer %282%29\SimplePdfViewer\SimplePdfViewer\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2016-08-26T10:01:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\SimplePdfViewer %282%29\SimplePdfViewer\SimplePdfViewer\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-09-20T17:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\SimplePdfViewer %282%29\SimplePdfViewer\SimplePdfViewer\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T17:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\SimplePdfViewer %282%29\SimplePdfViewer\SimplePdfViewer\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T17:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\SimplePdfViewer %282%29\SimplePdfViewer\SimplePdfViewer\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T17:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\SimplePdfViewer %282%29\SimplePdfViewer\SimplePdfViewer\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T17:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\SimplePdfViewer %282%29\SimplePdfViewer\SimplePdfViewer\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T17:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\SimplePdfViewer %282%29\SimplePdfViewer\SimplePdfViewer\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T17:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\SimplePdfViewer %282%29\SimplePdfViewer\SimplePdfViewer\bin\x86\Debug\SimplePdfViewer.xr.xml">
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\bin\x86\Debug\SimplePdfViewer.xr.xml">
       <PackagePath>SimplePdfViewer.xr.xml</PackagePath>
-      <Modified>2017-03-15T20:58:43.359</Modified>
+      <Modified>2017-03-26T19:56:49.676</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-02-15T19:02:37.951</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\SimplePdfViewer %282%29\SimplePdfViewer\SimplePdfViewer\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\owner\.nuget\packages\Syncfusion.UWP\15.1460.2\lib\uap10.0\Syncfusion.SfBusyIndicator.UWP\Syncfusion.SfBusyIndicator.UWP.xr.xml">
+      <PackagePath>Syncfusion.SfBusyIndicator.UWP\Syncfusion.SfBusyIndicator.UWP.xr.xml</PackagePath>
+      <Modified>2017-03-10T21:35:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\.nuget\packages\Syncfusion.UWP\15.1460.2\lib\uap10.0\Syncfusion.SfBusyIndicator.UWP\Properties\Syncfusion.SfBusyIndicator.UWP.rd.xml">
+      <PackagePath>Syncfusion.SfBusyIndicator.UWP\Properties\Syncfusion.SfBusyIndicator.UWP.rd.xml</PackagePath>
+      <Modified>2017-03-10T21:35:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\.nuget\packages\Syncfusion.UWP\15.1460.2\lib\uap10.0\Syncfusion.SfInput.UWP\Syncfusion.SfInput.UWP.xr.xml">
+      <PackagePath>Syncfusion.SfInput.UWP\Syncfusion.SfInput.UWP.xr.xml</PackagePath>
+      <Modified>2017-03-10T21:35:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\.nuget\packages\Syncfusion.UWP\15.1460.2\lib\uap10.0\Syncfusion.SfInput.UWP\Properties\Syncfusion.SfInput.UWP.rd.xml">
+      <PackagePath>Syncfusion.SfInput.UWP\Properties\Syncfusion.SfInput.UWP.rd.xml</PackagePath>
+      <Modified>2017-03-10T21:35:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\.nuget\packages\Syncfusion.UWP\15.1460.2\lib\uap10.0\Syncfusion.SfShared.UWP\Syncfusion.SfShared.UWP.xr.xml">
+      <PackagePath>Syncfusion.SfShared.UWP\Syncfusion.SfShared.UWP.xr.xml</PackagePath>
+      <Modified>2017-03-10T21:35:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\.nuget\packages\Syncfusion.UWP\15.1460.2\lib\uap10.0\Syncfusion.SfShared.UWP\Properties\Syncfusion.SfShared.UWP.rd.xml">
+      <PackagePath>Syncfusion.SfShared.UWP\Properties\Syncfusion.SfShared.UWP.rd.xml</PackagePath>
+      <Modified>2017-03-10T21:35:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-15T20:58:50.359</Modified>
+      <Modified>2017-03-26T19:56:59.779</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\SimplePdfViewer %282%29\SimplePdfViewer\SimplePdfViewer\bin\x86\Debug\Core\SimplePdfViewer.exe">
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\bin\x86\Debug\Core\SimplePdfViewer.exe">
       <PackagePath>SimplePdfViewer.exe</PackagePath>
-      <Modified>2017-03-15T21:44:25.552</Modified>
+      <Modified>2017-03-26T19:57:01.142</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

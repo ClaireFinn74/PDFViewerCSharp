@@ -1,1 +1,1 @@
-C:\Users\owner\Downloads\SimplePdfViewer (2)\SimplePdfViewer\SimplePdfViewer\SimplePdfViewer.csproj;x86
+C:\Users\owner\Downloads\PDFViewerCSharp\SimplePdfViewer\SimplePdfViewer.csproj;x86

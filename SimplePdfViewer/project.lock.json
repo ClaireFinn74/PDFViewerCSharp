@@ -278,6 +278,19 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
+      "Syncfusion.UWP/15.1460.2": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfBusyIndicator.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfBusyIndicator.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        }
+      },
       "System.AppContext/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -2156,6 +2169,19 @@
           "runtimes/win8-arm/native/mscorrc.dll": {}
         }
       },
+      "Syncfusion.UWP/15.1460.2": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfBusyIndicator.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfBusyIndicator.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        }
+      },
       "System.AppContext/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -3875,6 +3901,19 @@
         },
         "runtime": {
           "runtimes/win8-aot/lib/netcore50/System.Private.DataContractSerialization.dll": {}
+        }
+      },
+      "Syncfusion.UWP/15.1460.2": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfBusyIndicator.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfBusyIndicator.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -5608,6 +5647,19 @@
           "runtimes/win7-x64/native/mscorrc.dll": {}
         }
       },
+      "Syncfusion.UWP/15.1460.2": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfBusyIndicator.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfBusyIndicator.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        }
+      },
       "System.AppContext/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -7327,6 +7379,19 @@
         },
         "runtime": {
           "runtimes/win8-aot/lib/netcore50/System.Private.DataContractSerialization.dll": {}
+        }
+      },
+      "Syncfusion.UWP/15.1460.2": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfBusyIndicator.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfBusyIndicator.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -9060,6 +9125,19 @@
           "runtimes/win7-x86/native/mscorrc.dll": {}
         }
       },
+      "Syncfusion.UWP/15.1460.2": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfBusyIndicator.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfBusyIndicator.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        }
+      },
       "System.AppContext/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -10779,6 +10857,19 @@
         },
         "runtime": {
           "runtimes/win8-aot/lib/netcore50/System.Private.DataContractSerialization.dll": {}
+        }
+      },
+      "Syncfusion.UWP/15.1460.2": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfBusyIndicator.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfBusyIndicator.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -12893,6 +12984,49 @@
         "runtimes/win8-arm/native/mscordbi.dll",
         "runtimes/win8-arm/native/mscorrc.debug.dll",
         "runtimes/win8-arm/native/mscorrc.dll"
+      ]
+    },
+    "Syncfusion.UWP/15.1460.2": {
+      "sha512": "PDQMHV3hN4z13lOKHN/2N8YvzSQBgvUaxOt7vd0wivB2EHk26IE9e7TAm6S8Rk3t0lO5uzx4eo0Zn+n9thHIlQ==",
+      "type": "package",
+      "files": [
+        "Syncfusion.UWP.15.1460.2.nupkg.sha512",
+        "Syncfusion.UWP.nuspec",
+        "lib/uap10.0/Syncfusion.SfBusyIndicator.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfBusyIndicator.UWP.pri",
+        "lib/uap10.0/Syncfusion.SfBusyIndicator.UWP.xml",
+        "lib/uap10.0/Syncfusion.SfBusyIndicator.UWP/DeviceFamily-Mobile/Themes/BusyIndicatorStyle.xaml",
+        "lib/uap10.0/Syncfusion.SfBusyIndicator.UWP/DeviceFamily-Mobile/Themes/BusyIndicatorStyle.xbf",
+        "lib/uap10.0/Syncfusion.SfBusyIndicator.UWP/Properties/Syncfusion.SfBusyIndicator.UWP.rd.xml",
+        "lib/uap10.0/Syncfusion.SfBusyIndicator.UWP/Syncfusion.SfBusyIndicator.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfBusyIndicator.UWP/Syncfusion.SfBusyIndicator.UWP.xr.xml",
+        "lib/uap10.0/Syncfusion.SfBusyIndicator.UWP/Syncfusion.SfShared.UWP.xml",
+        "lib/uap10.0/Syncfusion.SfBusyIndicator.UWP/Themes/BusyIndicatorStyle.xaml",
+        "lib/uap10.0/Syncfusion.SfBusyIndicator.UWP/Themes/BusyIndicatorStyle.xbf",
+        "lib/uap10.0/Syncfusion.SfBusyIndicator.UWP/Themes/generic.xaml",
+        "lib/uap10.0/Syncfusion.SfBusyIndicator.UWP/Themes/generic.xbf",
+        "lib/uap10.0/Syncfusion.SfInput.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfInput.UWP.pri",
+        "lib/uap10.0/Syncfusion.SfInput.UWP.xml",
+        "lib/uap10.0/Syncfusion.SfInput.UWP/DeviceFamily-Mobile/Themes/InputStyles.xaml",
+        "lib/uap10.0/Syncfusion.SfInput.UWP/DeviceFamily-Mobile/Themes/InputStyles.xbf",
+        "lib/uap10.0/Syncfusion.SfInput.UWP/Properties/Syncfusion.SfInput.UWP.rd.xml",
+        "lib/uap10.0/Syncfusion.SfInput.UWP/Syncfusion.SfInput.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfInput.UWP/Syncfusion.SfInput.UWP.xr.xml",
+        "lib/uap10.0/Syncfusion.SfInput.UWP/Syncfusion.SfShared.UWP.xml",
+        "lib/uap10.0/Syncfusion.SfInput.UWP/Themes/InputStyles.xaml",
+        "lib/uap10.0/Syncfusion.SfInput.UWP/Themes/InputStyles.xbf",
+        "lib/uap10.0/Syncfusion.SfInput.UWP/Themes/generic.xaml",
+        "lib/uap10.0/Syncfusion.SfInput.UWP/Themes/generic.xbf",
+        "lib/uap10.0/Syncfusion.SfShared.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfShared.UWP.pri",
+        "lib/uap10.0/Syncfusion.SfShared.UWP.xml",
+        "lib/uap10.0/Syncfusion.SfShared.UWP/Properties/Syncfusion.SfShared.UWP.rd.xml",
+        "lib/uap10.0/Syncfusion.SfShared.UWP/Syncfusion.SfShared.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfShared.UWP/Syncfusion.SfShared.UWP.xr.xml",
+        "lib/uap10.0/Syncfusion.SfShared.UWP/Themes/generic.xaml",
+        "lib/uap10.0/Syncfusion.SfShared.UWP/Themes/generic.xbf",
+        "nuget.exe"
       ]
     },
     "System.AppContext/4.0.0": {
@@ -15497,7 +15631,8 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "Microsoft.NETCore.UniversalWindowsPlatform >= 5.1.0"
+      "Microsoft.NETCore.UniversalWindowsPlatform >= 5.1.0",
+      "Syncfusion.UWP >= 15.1460.2"
     ],
     "UAP,Version=v10.0": []
   }

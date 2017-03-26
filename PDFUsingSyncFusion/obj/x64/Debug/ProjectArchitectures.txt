@@ -1,0 +1,1 @@
+C:\Users\owner\Downloads\PDFViewerCSharp\PDFUsingSyncFusion\PDFUsingSyncFusion.csproj;x64

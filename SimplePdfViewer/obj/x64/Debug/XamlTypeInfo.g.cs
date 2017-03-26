@@ -67,6 +67,18 @@ namespace SimplePdfViewer.SimplePdfViewer_XamlTypeInfo
             {
                 xamlType = CreateXamlType(typeIndex);
             }
+            var userXamlType = xamlType as global::SimplePdfViewer.SimplePdfViewer_XamlTypeInfo.XamlUserType;
+            if(xamlType == null || (userXamlType != null && userXamlType.IsReturnTypeStub && !userXamlType.IsLocalType))
+            {
+                global::Windows.UI.Xaml.Markup.IXamlType libXamlType = CheckOtherMetadataProvidersForType(type);
+                if (libXamlType != null)
+                {
+                    if(libXamlType.IsConstructible || xamlType == null)
+                    {
+                        xamlType = libXamlType;
+                    }
+                }
+            }
             if (xamlType != null)
             {
                 _xamlTypeCacheByName.Add(xamlType.FullName, xamlType);
@@ -90,6 +102,18 @@ namespace SimplePdfViewer.SimplePdfViewer_XamlTypeInfo
             if(typeIndex != -1)
             {
                 xamlType = CreateXamlType(typeIndex);
+            }
+            var userXamlType = xamlType as global::SimplePdfViewer.SimplePdfViewer_XamlTypeInfo.XamlUserType;
+            if(xamlType == null || (userXamlType != null && userXamlType.IsReturnTypeStub && !userXamlType.IsLocalType))
+            {
+                global::Windows.UI.Xaml.Markup.IXamlType libXamlType = CheckOtherMetadataProvidersForName(typeName);
+                if (libXamlType != null)
+                {
+                    if(libXamlType.IsConstructible || xamlType == null)
+                    {
+                        xamlType = libXamlType;
+                    }
+                }
             }
             if (xamlType != null)
             {
@@ -260,6 +284,150 @@ namespace SimplePdfViewer.SimplePdfViewer_XamlTypeInfo
             return xamlType;
         }
 
+        private global::System.Collections.Generic.List<global::Windows.UI.Xaml.Markup.IXamlMetadataProvider> _otherProviders;
+        private global::System.Collections.Generic.List<global::Windows.UI.Xaml.Markup.IXamlMetadataProvider> OtherProviders
+        {
+            get
+            {
+                if(_otherProviders == null)
+                {
+                    var otherProviders = new global::System.Collections.Generic.List<global::Windows.UI.Xaml.Markup.IXamlMetadataProvider>();
+                    global::Windows.UI.Xaml.Markup.IXamlMetadataProvider provider;
+                    provider = new global::Syncfusion.UI.Xaml.Controls.Layout.Syncfusion_SfAccordion_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.SfBarcode.UWP.Syncfusion_SfBarcode_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.BulletGraph.Syncfusion_SfBulletGraph_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.Controls.Notification.Syncfusion_SfBusyIndicator_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.Controls.Layout.Syncfusion_SfCarousel_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.CellGrid.Syncfusion_SfCellGrid_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.SfChart.UWP.Syncfusion_SfChart_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.Controls.Media.Syncfusion_SfColorPickers_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.SfDiagram.UWP.Syncfusion_SfDiagram_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.Controls.Layout.Syncfusion_SfDockingManager_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.Gauges.Syncfusion_SfGauge_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.Grid.Syncfusion_SfGrid_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.Grid.Syncfusion_SfGridCommon_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.Controls.Navigation.Syncfusion_SfGroupBar_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.HeatMap.Syncfusion_SfHeatMap_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.Controls.Notification.Syncfusion_SfHubTile_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.Controls.Input.Syncfusion_SfInput_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.SfKanban.UWP.Syncfusion_SfKanban_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.Maps.Syncfusion_SfMaps_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.Controls.Navigation.Syncfusion_SfMenu_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.NavigationDrawer.Syncfusion_SfNavigationDrawer_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.PdfViewer.Syncfusion_SfPdfViewer_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.PivotChart.Syncfusion_SfPivotChart_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.PivotClient.Syncfusion_SfPivotClient_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.PivotGauge.Syncfusion_SfPivotGauge_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.PivotGrid.Syncfusion_SfPivotGrid_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.PivotShared.Syncfusion_SfPivotShared_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.Controls.Notification.Syncfusion_SfProgressBar_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.PullToRefresh.Syncfusion_SfPullToRefresh_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.Controls.Navigation.Syncfusion_SfRadialMenu_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.Reports.Syncfusion_SfReportViewer_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.Controls.SfRibbon.Syncfusion_SfRibbon_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.RichTextBoxAdv.Syncfusion_SfRichTextBoxAdv_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.Rotator.Syncfusion_SfRotator_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.Schedule.Syncfusion_SfSchedule_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.Controls.Syncfusion_SfShared_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.Controls.Syncfusion_SfSpellChecker_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.Spreadsheet.Syncfusion_SfSpreadsheet_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.SunburstChart.Syncfusion_SfSunburstChart_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.Controls.Navigation.Syncfusion_SfTabControl_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.Controls.Layout.Syncfusion_SfTileView_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.TreeMap.Syncfusion_SfTreeMap_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.Controls.Navigation.Syncfusion_SfTreeNavigator_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.Controls.Notification.Syncfusion_SfBusyIndicator_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.Controls.Input.Syncfusion_SfInput_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.UI.Xaml.Controls.Syncfusion_SfShared_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    _otherProviders = otherProviders;
+                }
+                return _otherProviders;
+            }
+        }
+
+        private global::Windows.UI.Xaml.Markup.IXamlType CheckOtherMetadataProvidersForName(string typeName)
+        {
+            global::Windows.UI.Xaml.Markup.IXamlType xamlType = null;
+            global::Windows.UI.Xaml.Markup.IXamlType foundXamlType = null;
+            foreach(global::Windows.UI.Xaml.Markup.IXamlMetadataProvider xmp in OtherProviders)
+            {
+                xamlType = xmp.GetXamlType(typeName);
+                if(xamlType != null)
+                {
+                    if(xamlType.IsConstructible)    // not Constructible means it might be a Return Type Stub
+                    {
+                        return xamlType;
+                    }
+                    foundXamlType = xamlType;
+                }
+            }
+            return foundXamlType;
+        }
+
+        private global::Windows.UI.Xaml.Markup.IXamlType CheckOtherMetadataProvidersForType(global::System.Type type)
+        {
+            global::Windows.UI.Xaml.Markup.IXamlType xamlType = null;
+            global::Windows.UI.Xaml.Markup.IXamlType foundXamlType = null;
+            foreach(global::Windows.UI.Xaml.Markup.IXamlMetadataProvider xmp in OtherProviders)
+            {
+                xamlType = xmp.GetXamlType(type);
+                if(xamlType != null)
+                {
+                    if(xamlType.IsConstructible)    // not Constructible means it might be a Return Type Stub
+                    {
+                        return xamlType;
+                    }
+                    foundXamlType = xamlType;
+                }
+            }
+            return foundXamlType;
+        }
 
         private object get_0_MainPage_PdfPages(object instance)
         {
