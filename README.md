@@ -152,8 +152,16 @@ If I were to undertake this project again I'd say I might actually try to think 
 
 ##References:
 
-[Microsoft] https://msdn.microsoft.com/en-us
-[Myo] https://www.myo.com/
-[SyncFusion] https://www.syncfusion.com/
-[StackOverFlow] https://stackoverflow.com/
-[CodeProject] https://www.codeproject.com/
+1. [CodeProject] https://www.codeproject.com/
+
+2. [GMITGestureBasedURI] https://learnonline.gmit.ie/course/view.php?id=3825 
+
+3. [Microsoft] https://msdn.microsoft.com/en-us
+
+4. [Myo] https://www.myo.com/
+
+5. [MyoSharpDLL] https://github.com/tayfuzun/MyoSharp
+
+6. [StackOverFlow] https://stackoverflow.com/
+
+7. [SyncFusion] https://www.syncfusion.com/
