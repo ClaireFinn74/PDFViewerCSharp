@@ -147,3 +147,11 @@ __Conclusions & Recommendations__ –  In conclusion, I enjoyed partaking in thi
 
 
 If I were to undertake this project again I'd say I might actually try to think of an idea I could interpret for the Kinect to get a feel for how that also works. In terms of the Myo, I was very disappointed at the fact my arm couldn't properly fit causing my interactions with my own app to be inaccurate. It's quite frustrating for myself to use at times when I see other's with bigger arms use it effortlessly. I think a smaller armband might have been a consideration for Thalmic, as I am definitely not the only one my size. I also tried using Sync Fusion, a professional PDF .dll which allows you to add custom Sync Fusion Toolbar commands. I had extra functionality with that project such as "ctrl F" to find certain words and Zoom. I eventually decided against Syncfusion due to its exclusive coding style. A lot of stuff about it seemed vague and the way the code was implemented seemed as if one thing was doing lots of stuff at once without the user having knowledge of it. It was hard to get it to react properly with things I wanted to do within UWP, so it left me feeling as if it was too private/licensed/restrictive. I also thought I could use it free of charge but in the end I got lots of calls/emails about licensing, which obviously was going to be an issue for a student. I gleaned that you should always read up on licensing if you want to use a certain .dll or product. In the end I removed it from my project but it should be in previous versions of my github. Finally, I would recommend that next time I work with a piece of hardware I should try to buy it myself as I shared the Myo with two others. It was easy to share but it would have been better if I could have had more time with it myself for testing purposes. 
+
+
+
+##References:
+
+[Microsoft] https://msdn.microsoft.com/en-us
+[Myo] https://www.myo.com/
+[SyncFusion] https://www.syncfusion.com/
