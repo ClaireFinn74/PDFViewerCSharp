@@ -42,7 +42,7 @@ The User can press ‘Clear Note’ from the menu to enter erasing mode but must
 The User can save this note to a file by pressing ‘Save Note’ from the menu. This is done via ‘File Picker’ and specifying ‘.GIF’ Format. 
 It would also be useful to the user to be able to load their previous notes back into a previous PDF. This is also accounted for within the ‘Load Note’ Button which accesses the same folder. 
 
- ![LoadAndSaveNotes](https://github.com/ClaireFinn74/PDFViewerCSharp/blob/master/Images%20For%20Sharepoint%20Doc/screenshot5.PNG)
+ ![LoadAndSaveNotes](https://github.com/ClaireFinn74/PDFViewerCSharp/blob/master/Images%20For%20Sharepoint%20Doc/screenshot7.PNG)
 
   
 Another button on the Menu is a button called ‘Book Url’s that brings you to a page containing a list of URLs the user could use, leading to .pdf books on the internet. The user can pick one, copy and paste it, enter it into the textbox on the MainPage, and load in that book into the application. The Url and Images are read in via a JSON file. I originally had ‘Author, Description, and Name’ fields but due to the JSON file being a large one, the application kept crashing even when I made this process asynchronous. I had the ‘Name’ field bound to the List View so that when the user Clicks a ‘Book Url’, The Name of that book would appear. I had to replace this with the text ‘Book Url’ to try to make the JSON File shorter. I had to forego good functionality but in the end it’s the stability of the application that needs to be accounted for at all times. 
@@ -131,6 +131,8 @@ I had originally considered working with the Kinect for XBox. After researching 
  
  
 __Architecture for the solution__ –  
+ 
+  ![ClassDiagram](https://github.com/ClaireFinn74/PDFViewerCSharp/blob/master/SimplePDF/Images/classDiagram.PNG) 
  
 The architecture above is generated within Visual Studio 2015 by right-clicking on the solution and pressing 'view' and then 'View Class Diagram'. This is the full Class Diagram for my application. 
  
