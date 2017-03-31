@@ -53,7 +53,7 @@ I have also included a local storage button where the user can open a PDF they h
   
 The last Button on the Menu is a ‘Myo Connection’ button. This button opens up a Channel of Communication with the Myo Armband so that it can react to my application.  
  
-__Gestures identified as appropriate for this application:  __
+__Gestures identified as appropriate for this application:__
 
 I’m using the Myo Armband to make gesture-based interactions with my application;  
    A ‘Wave-In/Wave-Out’ gesture to ‘Turn’ the pages via the scrollviewer. 
@@ -150,7 +150,7 @@ If I were to undertake this project again I'd say I might actually try to think 
 
 
 
-##References:
+## References:
 
 1. [CodeProject] https://www.codeproject.com/
 
