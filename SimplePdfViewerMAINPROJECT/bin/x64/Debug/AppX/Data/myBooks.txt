@@ -1,0 +1,133 @@
+﻿[{"Url" : "http://www.kkoworld.com/kitablar/Sesilia_Ahern_PS_seni_sevirem-ing.pdf", "Image" : "/Images/psIloveYou.jpg"},
+{ 
+	"Url" : "http://www.kkoworld.com/kitablar/Mario_Puzo-The_Godfather_eng.pdf", 
+	"Image" : "/Images/theGodfather.jpg"},
+
+{	
+	"Url" : "http://businessbuildersbanquet.com/software/deadzone.pdf",
+	"Image" : "/Images/theDeadZone.jpg"},
+
+{	
+	"Url" : "http://www.kkoworld.com/kitablar/Helen%20Fielding%20-%20Bridget%20Jones's%20Diary.pdf", 
+	"Image" : "/Images/BridgetJonesDiary.jpg" },
+
+{	
+	"Url" : "http://sf.arpnic.net/King,%20Stephen%20-%20The%20Mist.pdf",  
+	"Image" : "/Images/theMist.jpg" },
+
+{	
+	"Url" : "http://english4success.ru/Upload/books/463.pdf", 
+	"Image" : "/Images/aDanceWithDragons.jpg" },
+
+{	
+	"Url" : "https://jessbarga.wikispaces.com/file/view/The+Curious+Incident+of+the+Dog+In+the+night+time.pdf",  
+	"Image" : "/Images/CuriousIncidentOfTheDogInTheNight.jpg" },
+
+{	
+	"Url" : "http://english4success.ru/upload/books/1698.pdf", 
+	"Image" : "/Images/DarkPlaces.jpg" },
+
+{	
+	"Url" : "http://www.tkk.pl/~ivan_rs/Jeff%20Lindsay%20-%20Dexter%20Series/2007%20-%20Jeff%20Lindsay%20-%20Dexter%20In%20The%20Dark.pdf", 
+	"Image" : "/Images/darklyDreamingDexter.jpg" },
+
+{	 
+	"Url" : "http://www.nothuman.net/images/files/discussion/2/1815b71a2e633176b1c509f3a186605b.pdf",  
+	"Image" : "/Images/aGameOfThrones.jpg" },
+
+{	
+	"Url" : "http://dl.lilibook.ir/2016/03/A-Clash-of-Kings.pdf", 
+	"Image" : "/Images/aClashOfKings.jpg" },
+
+{	
+	"Url" : "http://gameofthronespdfs.weebly.com/uploads/1/3/6/0/13605837/3_a_storm_of_swords.pdf",  
+	"Image" : "/Images/aStormOfSwords.jpg" },
+
+{	 
+	"Url" : "http://embracethemadnessfans.weebly.com/uploads/2/7/5/8/27583023/hannibal_by_thomas_harris.pdf",  
+	"Image" : "/Images/Hannibal.jpg" },
+
+{	
+	"Url" : "http://westeros.ir/wp-content/uploads/2012/08/A-Feast-for-Crows-George-R.-R.-Martin.pdf", 
+	"Image" : "/Images/aFeastForCrows.jpg" },
+
+{	
+	"Url" : "ftp://150.140.208.250/share/ebooks/logotexnika/rowling/The%20Casual%20Vacancy.pdf",  
+	"Image" : "/Images/JKRowlingCasualVacancy.jpg" },
+
+{	
+	"Url" : "http://www2.sdfi.edu.cn/netclass/jiaoan/englit/download/Harry%20Potter%20and%20the%20Sorcerer's%20Stone.pdf", 
+	"Image" : "/Images/harryPotterAndThePhilosophersStone.jpg" },
+
+{	
+	"Url" : "https://langlitlattes.files.wordpress.com/2015/07/the100yearoldman-2.pdf",  
+	"Image" : "/Images/theHundredYearOldMan.jpg"},
+
+{	
+	"Url" : "http://www.osmmdsa.edu.ba/images/pravilnik/matilda.pdf",
+	"Image" : "/Images/RoaldDahlMatilda.jpg"},
+
+{	
+	"Url" : "http://www.darranparkprimary.com/uploads/2/5/9/9/25990297/the_bfg.pdf", 
+	"Image" : "/Images/RoaldDahlTheBFG.jpg" },
+
+{	
+	"Url" : "http://cito.allmysh-t.com/ebooks/It.pdf", 
+	"Image" : "/Images/StephenKingIt.jpg" },
+
+{	
+	"Url" : "http://thinkingonpaper.weebly.com/uploads/1/8/9/8/18981891/the_green_mile_.pdf", 
+	"Image" : "/Images/StephenKingTheGreenMile.jpg"},
+
+{	
+	"Url" : "https://geobestbooks.files.wordpress.com/2015/08/bookhp7.pdf",
+	"Image" : "/Images/harryPotterAndTheDeathlyHallows.jpg"},
+
+{	 
+	"Url" : "http://d2.d.yun.hjfile.cn/files/201405/%E6%B2%AA%E6%B1%9F%E8%82%B2%E5%84%BF%E7%BD%91_J.K._Rowling_-_HP_6_-_Harry_Potter_and_the_Half-Blood_Prince_20140530113504270_802.pdf?_upd=true", 
+	"Image" : "/Images/harryPotterAndTheHalfBloodPrince.jpg" },
+
+{	 
+	"Url" : "http://www.chuongnguyen.org/uploads/3/0/0/4/3004088/harry_potter_and_the_order_of_the_phoenix_uk_version_v2.pdf", 
+	"Image" : "/Images/harryPotterAndTheOrderOfThePhoenix.jpg" },
+
+{	
+	"Url" : "https://westernhs.bcps.org/UserFiles/Servers/Server_4204286/Image/Grade9GT--TheBookThiefMarkusZusak.pdf", 
+	"Image" : "/Images/TheBookTheif.jpg" },
+
+{	 
+	"Url" : "http://www.queenmargaret.sayr.sch.uk/uploads/9/7/5/1/9751352/the_boy_in_the_striped_pyjamas_lp_t14.pdf",  
+	"Image" : "/Images/TheBoyintheStripedPyjamas.jpeg" },
+
+{	
+	"Url" : "http://1.droppdf.com/files/B9Euh/the-girl-on-the-train-paula-hawkins.pdf",  
+	"Image" : "/Images/TheGirlOnTheTrain.png" },
+
+{	
+	"Url" : "http://d2.d.yun.hjfile.cn/files/201405/%E6%B2%AA%E6%B1%9F%E8%82%B2%E5%84%BF%E7%BD%91_J.K._Rowling_-_HP_4_-_Harry_Potter_and_the_Goblet_of_Fire_20140530113342972_570.pdf?_upd=true", 
+	"Image" : "/Images/harryPotterAndTheGobletOfFire.jpg"},
+
+{	
+	"Url" : "http://www.librarything.com/wiki/images/e/e3/The_lovely_bones.pdf",
+	"Image" : "/Images/TheLovelyBones.jpg"},
+
+{	
+	"Url" : "http://pinkmonkey.com/dl/library1/digi058.pdf",  
+	"Image" : "/Images/TheSecretGarden.jpeg" },
+
+{	
+	"Url" : "http://218.92.44.21:8088/book/book76/2009893675899.pdf", 
+	"Image" : "/Images/harryPotterAndThePrisonerOfAzkaban.jpg" },
+
+{	
+	"Url" : "http://www.kkoworld.com/kitablar/harper_li_masqarachini_oldurmek-eng.pdf", 
+	"Image" : "/Images/ToKillAMockingbird.jpg" },
+
+{	
+	"Url" : "https://yippiie.files.wordpress.com/2011/06/1-stephenie-meyer-twilight.pdf", 
+	"Image" : "/Images/twilight.jpg" },
+
+{	
+	"Url" : "http://www.yjqtsg.com/newbookyj/lan/Harry%20Potter%20and%20the%20Chamber%20of%20Secrets.pdf", 
+	"Image" : "/Images/harryPotterAndTheChamberOfSecrets.jpg" }
+]

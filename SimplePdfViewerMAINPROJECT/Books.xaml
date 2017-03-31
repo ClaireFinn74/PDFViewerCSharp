@@ -1,0 +1,70 @@
+﻿<Page
+    x:Class="SimplePdfViewer.Books"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SimplePdfViewer"
+      xmlns:converters="using:SimplePdfViewer.Converters"
+    xmlns:viewModel="using:SimplePdfViewer.ViewModel"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <converters:ObjectExistsToVisible x:Key="ObjectExistsToVisible" />
+    </Page.Resources>
+
+
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <!-- VisualState to be triggered when window 
+                     width is >=720 effective pixels -->
+                        <AdaptiveTrigger MinWindowWidth = "1440" />
+                    </VisualState.StateTriggers>
+
+                    <VisualState.Setters>
+                        <Setter Target = "myPanel.Orientation" Value = "Horizontal" />
+                        <Setter Target = "InfoPanel.Orientation" Value = "Horizontal" />
+
+                    </VisualState.Setters>
+
+                </VisualState>
+
+            </VisualStateGroup>
+
+        </VisualStateManager.VisualStateGroups>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+            <StackPanel x:Name="myPanel"  Grid.Column="0" Orientation="Vertical">
+                <ListView  x:Name="MainList" 
+              ItemsSource="{x:Bind ViewNames.book, Mode=OneWay}" 
+                       SelectedIndex="{x:Bind ViewNames.SelectedIndex, Mode=TwoWay}"
+              MinWidth="250" Margin="5">
+
+                    <ListView.ItemTemplate>
+                        <DataTemplate x:DataType="viewModel:BookViewModel" >
+                            <TextBlock Text="Book  Urls" />
+                        </DataTemplate>
+
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackPanel>
+        </ScrollViewer>
+
+        <StackPanel x:Name="InfoPanel" Grid.Column="2" Orientation="Vertical" Visibility="{x:Bind ViewNames.SelectedBook, Mode=OneWay, Converter={StaticResource ObjectExistsToVisible}}" >
+            <TextBox IsReadOnly="True"
+              Text="{x:Bind ViewNames.SelectedBook.Url, Mode=OneWay, FallbackValue='0'}" 
+              Margin="5" />
+            <Image Source="{x:Bind ViewNames.SelectedBook.Image, Mode=OneWay, FallbackValue='0'}" Height="300" Width="300"/>
+        </StackPanel>
+
+        <Button x:Name="btnBack" Content="Back" Click="btnBack_Click" Margin="29,548,0,60" RenderTransformOrigin="-1.765,-16.094" Grid.Column="1"/>
+    </Grid>
+</Page>
