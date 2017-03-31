@@ -5,14 +5,18 @@
 # Design Pattern: MVVM 
 # Goal: ‘Book-Reader (.pdf Format)’  
  
-__Purpose of the application: __
+__Purpose of the application:__
+
 This application is a Book Reader. While the main purpose of the application is to create a book reader, I have also left the option open so that people can also load in other .PDF files, whether it be a set of presentation slides, a CV or any type of .pdf file. 
 The Main Page includes all of the functionality of the app bar a few extras. 
+
 
 The UI of the Main Page looks like this: 
  
 As you can see, the Main App Bar at the Top includes all of the buttons the page will need and expands so that when the user enters in text into the URL textbox, the bar, even though expanded, will not block the displayed buttons but rather, the buttons will move to an external menu via specifying them as “AppBarToggleButton”s.  
-*Image2.*
+
+![ToggleButtons](https://github.com/ClaireFinn74/PDFViewerCSharp/blob/master/Images%20For%20Sharepoint%20Doc/ScreenShot2.PNG)
+
  
   
 The user will enter any link into the textbox and as long as it has the extension ‘.pdf’. at the end the PDF should be loaded in handled via HTTP Client, opening a Remote stream to access the URL. The Large expanse on the side beside the App Bar is where the PDF will be loaded into. The loading in of the PDF is handled by a StackPanel to keep it in place.  
