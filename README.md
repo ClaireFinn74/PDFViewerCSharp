@@ -12,6 +12,9 @@ The Main Page includes all of the functionality of the app bar a few extras.
 
 
 The UI of the Main Page looks like this: 
+
+![Main Page](https://github.com/ClaireFinn74/PDFViewerCSharp/blob/master/Images%20For%20Sharepoint%20Doc/ScreenShot1.PNG)
+
  
 As you can see, the Main App Bar at the Top includes all of the buttons the page will need and expands so that when the user enters in text into the URL textbox, the bar, even though expanded, will not block the displayed buttons but rather, the buttons will move to an external menu via specifying them as “AppBarToggleButton”s.  
 
@@ -21,27 +24,30 @@ As you can see, the Main App Bar at the Top includes all of the buttons the page
   
 The user will enter any link into the textbox and as long as it has the extension ‘.pdf’. at the end the PDF should be loaded in handled via HTTP Client, opening a Remote stream to access the URL. The Large expanse on the side beside the App Bar is where the PDF will be loaded into. The loading in of the PDF is handled by a StackPanel to keep it in place.  
   
-The User can also choose from a whole host of other options on the menu.  
+The User can also choose from a whole host of other options on the menu:
+
+![ToggleButtons](https://github.com/ClaireFinn74/PDFViewerCSharp/blob/master/Images%20For%20Sharepoint%20Doc/ScreenShot3.PNG)
  
   
 There’s the option to ‘Start Scribbling’, where, using ‘InkCanvas’, the user can write notes on the side of the PDF. This functionality is supposed to incorporate the idea of ‘Annotations’, but unfortunately I can only annotate the canvas on the side of the PDF as the PDF is a Bitmap Image.  
- 
- 
- 
- 
- 
+
+![InkCanvas](https://github.com/ClaireFinn74/PDFViewerCSharp/blob/master/Images%20For%20Sharepoint%20Doc/screenshot%206.PNG)
  
 The user can pick the colour that they want to start drawing in from a Combo Box. I have only included a few basic colours: 
   
- 
+ ![ComboBox](https://github.com/ClaireFinn74/PDFViewerCSharp/blob/master/Images%20For%20Sharepoint%20Doc/screenshot5.PNG)
  
   
 The User can press ‘Clear Note’ from the menu to enter erasing mode but must then press ‘Start Scribbling’ to be able to draw on the canvas again. 
 The User can save this note to a file by pressing ‘Save Note’ from the menu. This is done via ‘File Picker’ and specifying ‘.GIF’ Format. 
 It would also be useful to the user to be able to load their previous notes back into a previous PDF. This is also accounted for within the ‘Load Note’ Button which accesses the same folder. 
+
+ ![LoadAndSaveNotes](https://github.com/ClaireFinn74/PDFViewerCSharp/blob/master/Images%20For%20Sharepoint%20Doc/screenshot5.PNG)
+
   
 Another button on the Menu is a button called ‘Book Url’s that brings you to a page containing a list of URLs the user could use, leading to .pdf books on the internet. The user can pick one, copy and paste it, enter it into the textbox on the MainPage, and load in that book into the application. The Url and Images are read in via a JSON file. I originally had ‘Author, Description, and Name’ fields but due to the JSON file being a large one, the application kept crashing even when I made this process asynchronous. I had the ‘Name’ field bound to the List View so that when the user Clicks a ‘Book Url’, The Name of that book would appear. I had to replace this with the text ‘Book Url’ to try to make the JSON File shorter. I had to forego good functionality but in the end it’s the stability of the application that needs to be accounted for at all times. 
- 
+
+ ![LoadAndSaveNotes](https://github.com/ClaireFinn74/PDFViewerCSharp/blob/master/Images%20For%20Sharepoint%20Doc/Screenshot8.PNG) 
   
 I have also included a local storage button where the user can open a PDF they have saved locally. The file will be loaded in with Adobe Acrobat locally in case of internet connection problems. 
   
