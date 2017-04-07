@@ -4,6 +4,7 @@
 # Language Used: C# 
 # Design Pattern: MVVM 
 # Goal: ‘Book-Reader (.pdf Format)’  
+# Presentation Slides: http://prezi.com/52vt6x_vbhjc/?utm_campaign=share&utm_medium=copy
  
 __Purpose of the application:__
 
